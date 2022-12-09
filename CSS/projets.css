@@ -31,3 +31,11 @@ a{
 p > a{
     color:white !important;
 }
+
+.fa{
+    color:white!important;
+}
+
+.fa:hover{
+    color:royalblue!important;
+}
