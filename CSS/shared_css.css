@@ -92,6 +92,8 @@ body{
 .container-item:hover{
     box-shadow: 5px 5px 5px royalblue;
 }
+.toggle{display:none;}
+
 @media screen and (max-width: 700px) {
     .toggle {
         display: block;
@@ -101,6 +103,7 @@ body{
         z-index: 20;
         margin-left: 90%;
         margin-top:5%;
+        margin-top: 5%;
     }
 
     .ouvrir {
@@ -138,9 +141,26 @@ body{
 
     .hover-underline-animation{width:fit-content;}
 
-    .nav-item{font-size: 1.5em;}
+    .nav-item{
+        font-size: 1.5em;
+        margin-top: 10%;
+    }
+
+    .navbar-nav > * {
+        margin-left: 5%;
+    }
+
+    .hover-underline-animation {
+        width: fit-content;
+    }
+
+    .nav-item {
+        font-size: 1.5em;
+    }
 
     .open .navbar-nav {
         transform: translateX(0);
     }
+
+    .footer-flex{width:70%;}
 }
